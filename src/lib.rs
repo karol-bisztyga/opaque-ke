@@ -827,7 +827,7 @@
 
 #![cfg_attr(not(feature = "bench"), deny(missing_docs))]
 #![deny(unsafe_code)]
-#![cfg_attr(not(feature = "std"), no_std)]
+// #![cfg_attr(not(feature = "std"), no_std)]
 
 #[cfg(not(any(feature = "u64_backend", feature = "u32_backend",)))]
 compile_error!(
